@@ -1,0 +1,173 @@
+.app-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+/* Page background under navbar */
+html, body {
+  background-color: #e5e5eb;
+}
+
+.main-title {
+  margin-bottom: 30px;
+}
+
+.dropdowns-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+
+.dropdown {
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.attendance-table {
+  margin: 0 auto 30px;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+.attendance-table th, .attendance-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.attendance-table th {
+  background-color: #f4f4f4;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.btn {
+  padding: 5px 10px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background-color: #fafafa;
+}
+
+.btn.present.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.btn.absent.active {
+  background-color: #f44336;
+  color: white;
+}
+
+/* Auth layout */
+.auth-container {
+  display: flex;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.auth-image {
+  flex: 1 1 60%;
+  position: relative;
+}
+
+.auth-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left center;
+}
+
+.auth-panel {
+  flex: 1 1 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 380px;
+  text-align: left;
+}
+
+/* Top header above navbar */
+.top-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+}
+
+.top-header-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.top-header-logo {
+  height: 56px;
+  object-fit: contain;
+}
+
+.top-header-right {
+  font-weight: 600;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 16px;
+  background-color: #333333; /* light black */
+  padding: 10px 16px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 0;
+}
+
+.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 6px 10px;
+  border: 1px solid rgba(255,255,255,0.6);
+  border-radius: 4px;
+  margin-right: 12px; /* extra space after Dashboard and Visuals */
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.nav-title {
+  margin-left: auto;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.nav-btn {
+  margin-left: 12px;
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid rgba(255,255,255,0.6);
+  border-radius: 4px;
+  padding: 6px 10px;
+}
+
+/* White cards for table and charts */
+.card-white {
+  background: #ffffff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
